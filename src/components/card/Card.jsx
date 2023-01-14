@@ -4,6 +4,7 @@ import { useContext } from "react";
 import { themeContext } from "../../Context";
 // some changes
 // santosh new ChannelMergerNode
+// change now
 const Card = ({ emoji, heading, details }) => {
 	const theme = useContext(themeContext);
 	const darkMode = theme.state.darkMode;
